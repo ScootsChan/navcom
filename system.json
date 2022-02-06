@@ -1,0 +1,27 @@
+{
+  "name": "navcom",
+  "title": "Naval Combat",
+  "description": "A KanColle-inspired system built to provide a semi-realisitc depiction of WW2-era naval tactics.",
+  "version": "Mk1",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "9",
+  "author": "ScootsKun & JollyPizza",
+  "esmodules": ["module/simple.js"],
+  "styles": ["styles/simple.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "km",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "https://wmworld.sktz.live/wiki/Main_Page",
+  "manifest": "https://gitlab.com/foundrynet/worldbuilding/raw/0.6.x/system.json",
+  "download": "https://gitlab.com/foundrynet/worldbuilding/-/archive/release-064/worldbuilding-release-064.zip",
+  "license": "LICENSE.txt"
+}
